@@ -37,6 +37,27 @@
         <p>© 2025 Sunsine. All rights reserved.</p>
     </footer>
 
+    <!-- Firebase Integration -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyA2ny-itHlTOGzHcHQLl6vUnXdeAdgZ29Q",
+        authDomain: "sunsinesaree.firebaseapp.com",
+        projectId: "sunsinesaree",
+        storageBucket: "sunsinesaree.firebasestorage.app",
+        messagingSenderId: "5195097547",
+        appId: "1:5195097547:web:1d5f4538dd4f753299024e"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+
     <!-- Link to the JavaScript file -->
     <script src="script.js"></script>
 </body>
