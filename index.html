@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Sunsine - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+        body {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100" onload="loadHome()">
+    <!-- Navbar -->
+    <nav class="bg-black text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a class="text-2xl font-bold" href="index.html">Sunsine</a>
+            <div>
+                <a class="px-4 hover:text-yellow-500 transition duration-300" href="index.html">Home</a>
+                <a class="px-4 hover:text-yellow-500 transition duration-300" href="about.html">About</a>
+                <a class="px-4 hover:text-yellow-500 transition duration-300" href="products.html">Products</a>
+                <a class="px-4 hover:text-yellow-500 transition duration-300" href="signup.html">Sign Up</a>
+                <a class="px-4 hover:text-yellow-500 transition duration-300" href="contact.html">Contact</a>
+                <a class="px-4 hover:text-yellow-500 transition duration-300" href="terms.html">Terms</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Content Section -->
+    <div id="content"></div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white p-4 text-center">
+        <p>© 2025 Sunsine. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
